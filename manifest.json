@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Spotify Lyrics Grabber",
+    "version": "1.0",
+    "description": "Fetches lyrics for the currently playing Spotify song.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "storage", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
